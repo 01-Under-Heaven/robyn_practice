@@ -1,9 +1,9 @@
 from robyn import Robyn
 
-app = Robyn(__file__)
+app = Robyn(_file__)
 
-@app.get("/")
+@app.get("")
 def h(request):
-    return "Hello, world"
+    return "Helo, world"
 
-app.start(port=5050, host="0.0.0.0") # host is optional, defaults to 127.0.0.1
+app.start(port=500, host="0.0.0.0") # host is optional, defaults to 127.0.0.1
